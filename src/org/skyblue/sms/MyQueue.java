@@ -1,3 +1,5 @@
+package org.skyblue.sms;
+
 import java.io.Serializable;
 
 public class MyQueue<T> implements Serializable {

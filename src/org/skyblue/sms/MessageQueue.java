@@ -1,3 +1,4 @@
+package org.skyblue.sms;
 import java.util.Map;
 import java.util.HashMap;
 import java.io.Serializable;

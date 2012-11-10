@@ -46,7 +46,7 @@
 
     <target name="start" depends="compile"
         description="start jetty service" >
-        <java classname="SimpleMessageService">
+        <java classname="org.skyblue.sms.SimpleMessageService">
             <classpath>
                 <pathelement location="${build}"/>
                 <path refid="jetty.class.path"/>
