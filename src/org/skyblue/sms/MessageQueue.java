@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.io.Serializable;
 
 public class MessageQueue implements Serializable {
-    static public final String FILE_MSG_QUEUE = "/Users/amitjoshi/programming/java/msgQueue.ser";
 
     private Map<String, MyQueue<String>> queueByTopic;
     private static final int SIZE = 4;

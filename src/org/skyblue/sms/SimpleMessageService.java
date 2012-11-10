@@ -17,7 +17,7 @@ import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 
 public class SimpleMessageService extends AbstractHandler {
-    static public final String FILE_MSG_QUEUE = "/Users/amitjoshi/programming/java/msgQueue.ser";
+    static public final String FILE_MSG_QUEUE = "msgQueue.ser";
     private MessageQueue msgQueue;
 
     public SimpleMessageService() {

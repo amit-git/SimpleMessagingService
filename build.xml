@@ -44,7 +44,7 @@
         <delete dir="${dist}"/>
     </target>
 
-    <target name="start" depends="compile"
+    <target name="server" depends="compile"
         description="start jetty service" >
         <java classname="org.skyblue.sms.SimpleMessageService">
             <classpath>
